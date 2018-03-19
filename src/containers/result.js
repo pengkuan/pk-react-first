@@ -1,7 +1,9 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import api from '../api/index'
 // import { Link } from 'react-router-dom';
+import TitleBar from '../components/TitleBar';
+
 
 class Result extends Component{
   // static propTypes = {
@@ -16,7 +18,6 @@ class Result extends Component{
     }
   }
   componentWillMount () {
-    console.log(api.postFetch)
     this._loadComments()
   }
   _loadComments () {
@@ -28,8 +29,8 @@ class Result extends Component{
   render(){
     return (
       <div>
+        <TitleBar history={this.props.history} title='估价结果' backApp={false}/>
         <h2>估价结果页</h2>
-        { this.state.data.map( (item,i) => <p key={i}>{item}</p>)}
       </div>
     )
     
