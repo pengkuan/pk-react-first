@@ -35,7 +35,6 @@ class App extends Component {
   getChildContext() {
       return { muiTheme: getMuiTheme(lightBaseTheme) };
   }
-
   render() {
     return (
         <Provider store={store}>

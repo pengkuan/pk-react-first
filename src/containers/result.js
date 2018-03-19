@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import api from '../api/index'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TitleBar from '../components/TitleBar';
 
 
@@ -31,6 +31,7 @@ class Result extends Component{
       <div>
         <TitleBar history={this.props.history} title='估价结果' backApp={false}/>
         <h2>估价结果页</h2>
+        <Link to='/payInfo'>确认回收</Link>
       </div>
     )
     
