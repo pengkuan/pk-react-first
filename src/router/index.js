@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
     Route,
     Switch,
+    HashRouter
 } from 'react-router-dom';
 import routes from './config';
 const Routers = () => (
-    <Router>
+    <HashRouter>
         <Switch>
             {
                 routes.map((route,i)=> (
@@ -14,7 +14,7 @@ const Routers = () => (
                 ))
             }
         </Switch>
-    </Router>
+    </HashRouter>
 );
 
 export default Routers;

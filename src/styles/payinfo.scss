@@ -7,10 +7,46 @@
 	.container{
 		padding:0 0.96rem;
 		.title{
+			margin:0.74rem 0 0.54rem 0;
 			font-size:0.6rem;
 			color: #333333;
 		}
+		.pay-type>div{
+			margin-bottom:1.28rem;
+			text-align:center;
+			display:inline-block;
+			margin-right:0.34rem;
+			font-size:0.56rem;
+			color:#888;
+			width: 5.6rem;
+			height: 1.88rem;
+			line-height: 1.88rem;
+			background-color: #f5f5f5;
+			border-radius: 8px;
+			
+			&.active{
+				color:#fff;
+				background-color: #377ffe;
+			}
+			img{
+				width:0.72rem;
+				height:0.72rem;
+				margin-right:0.20rem;
+			}
+		}
+		.submit{
+			width: 13.2rem;
+			height: 1.96rem;
+			line-height: 1.96rem;
+			background-color: #377ffe;
+			border-radius: 8px;
+			font-size: 0.6rem;
+			text-align:center;
+			color:#fff;
+			position:absolute;
+			bottom:.94rem;
+		}
 	}
 }
-// .test{background: red}
+
 
