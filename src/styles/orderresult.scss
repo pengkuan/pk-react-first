@@ -1,0 +1,33 @@
+.roder-result{
+	text-align:center;
+	font-size: 0.6rem;
+	line-height: 0.96rem;
+	.success-img{
+		width:8.18rem;
+		height:7.6rem;
+		margin-top:2.04rem;
+	}
+	.success{
+		color: #333333;
+		margin: .68rem 0 1.36rem 0;
+
+	}
+	.tip1{
+		line-height: 0.8rem;
+		color: #377ffe;
+	}
+	.tip2{
+		font-size: 0.48rem;
+		color: #999999;
+	}
+	.q-send{
+		width: 11.2rem;
+		height: 1.96rem;
+		line-height: 1.96rem;
+		text-align:center;
+		background-color: #377ffe;
+		border-radius: 8px;
+		margin: 1.56rem auto .2rem auto;
+		color: #ffffff;
+	}
+}

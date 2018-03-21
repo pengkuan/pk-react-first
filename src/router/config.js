@@ -2,6 +2,7 @@ import Product from '../containers/product'
 import Judge from '../containers/judge'
 import Result from '../containers/result'
 import PayInfo from '../containers/payInfo'
+import orderResult from '../containers/orderResult'
 const routes = [
     {
         path: '/',
@@ -21,6 +22,11 @@ const routes = [
     {
         path: '/payInfo',
         component: PayInfo,
+        exact: true,
+    },
+    {
+        path: '/orderResult',
+        component: orderResult,
         exact: true,
     }
 ];
